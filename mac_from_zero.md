@@ -41,23 +41,16 @@
 	brew cask install airfoil	
 	brew cask install dropbox
 	brew cask install garmin-express
-	brew cask install java
 	brew cask install omnigraffle
 	brew cask install sublime-text
 	brew cask install skype
 	brew cask install spotify
-	brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
-	brew cask install filezilla
-	brew cask install kaleidoscope
-	brew cask install sourcetree
 	brew cask install virtualbox
-	brew cask install alfred
 	brew cask install mou
 	brew cask install utorrent
-	brew cask install firefox-aurora google-chrome google-chrome-canary opera-next
+	brew cask install firefox
 	brew cask install spectacle
 	brew cask install caffeine
-	brew cask install fantastical
 	brew cask install the-unarchiver
 
 ###### Internet explorer virtual machines:
