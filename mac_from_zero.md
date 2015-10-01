@@ -59,3 +59,18 @@
 	curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE9_Win7/IE9.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
 	curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE10_Win8/IE10.Win8.For.MacVirtualBox.part{1.sfx,2.rar,3.rar}"
 	brew cask install iterm2-beta
+	
+	
+	
+brew list
+autoconf	docker		gradle		libyaml		node
+automake	emacs		leiningen	macvim		openssl
+boot2docker	fig		libevent	maven		pkg-config
+brew-cask	git		libgpg-error	mongodb		postgresql
+cmake		git-extras	libksba		mysql		readline
+cscope		gnupg		libtool		neo4j
+➜  ~  brew cask list
+airfoil		    evernote		microsoft-office    pgadmin3		spectacle	    teamviewer		vagrant
+caffeine	    garmin-express	mou		    skype		spotify		    the-unarchiver	virtualbox
+dropbox		    iterm2		omnigraffle	    slack		sublime-text3	    utorrent		vlc
+➜  ~	
