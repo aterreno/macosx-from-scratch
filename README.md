@@ -1,6 +1,4 @@
-# aterreno.github.com
-aterreno.github.com
-
+```
 brew install git
 brew install caskroom/cask/brew-cask
 brew install docker
@@ -32,3 +30,4 @@ brew cask install google-chrome google-drive
 brew search dockutil
 brew install dockutil
 dockutil --remove all
+```
