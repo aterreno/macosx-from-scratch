@@ -56,6 +56,16 @@ brew install nvm
 brew install picasa
 dockutil --remove all
 ```
+###### Brewable dev bare mininum:	
+```
+brew install apache2
+brew install rabbitmq
+brew install mysql
+brew install graphviz
+brew install aspell
+brew install java
+brew install rubymine
+```
 ###### Git setup:
 
 	ssh-keygen -t rsa -C "antonio.terreno@example.com"
