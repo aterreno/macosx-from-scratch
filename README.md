@@ -46,6 +46,7 @@ brew install macvim
 brew install nvm
 brew install gpg2
 brew install tfenv
+brew install ccat
 dockutil --remove all
 curl -s "https://get.sdkman.io" | bash
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
