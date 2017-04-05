@@ -34,6 +34,7 @@ brew cask install tunnelblick
 brew cask install avibrazil-rdm
 brew cask install screenhero
 brew cask install numi
+brew cask install intellij-idea
 brew install dockutil
 brew install git
 brew install ansible
