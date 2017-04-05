@@ -1,16 +1,16 @@
-###### Oh my zsh:
-
-	curl -L http://install.ohmyz.sh | sh
-	vi ~/.zshrc
-	
 ###### Install xcode:
 
 	sudo xcodebuild -license	
-	xcode-select --install    
+
+###### Oh my zsh:
+
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+	vi ~/.zshrc
+	
 
 ###### Install brew:
 
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	brew doctor
 
 
@@ -28,47 +28,33 @@
 ###### Brewable bare mininum:	
 
 ```
-brew cask install atom
 brew cask install caffeine
 brew cask install dropbox
 brew cask install evernote
 brew cask install firefox
-brew cask install google-chrome 
 brew cask install google-drive
 brew cask install iterm2
-brew cask install kindle
-brew cask install mou
 brew cask install omnigraffle
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
 brew cask install spotify
-brew cask install sublime-text3
+brew cask install sublime-text
 brew cask install the-unarchiver
-brew cask install utorrent
 brew cask install virtualbox
-brew install caskroom/cask/brew-cask
-brew install docker
 brew install dockutil
-brew install elixir
-brew install emacs --HEAD --use-git-head --cocoa
 brew install git
-brew install git-extras
-brew install git-flow
-brew install leiningen	
+brew install ansible
+brew install autojump
+brew install figlet
+brew install jq
+brew install wget
 brew install macvim
-brew install picasa
 dockutil --remove all
 ```
-###### Brewable dev bare mininum:	
+###### dev bare mininum:	
 ```
-brew install apache2
-brew install rabbitmq
-brew install mysql
-brew install graphviz
-brew install aspell
-brew install java
-brew install rubymine
+
 ```
 ###### Git setup:
 
