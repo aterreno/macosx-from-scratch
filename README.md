@@ -72,6 +72,18 @@ echo "get latest packer & vagrant from hashicorp - no good brew formula yet"
 	vi ~/.gitconfig
 	curl -L https://gist.githubusercontent.com/aterreno/5134044/raw/d31e8ca14eb895e77a85652da3869dc29af38f8a/.gitignore > ~/.gitignore 
 	vi ~/.gitignore
+	
+	
+###### Vim setup:
+
+	mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+	curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+	vim ~/.vimrc
+	execute pathogen#infect()
+	syntax on
+	filetype plugin indent on
+	cd ~/.vim/bundle && \
+	git clone https://github.com/tpope/vim-sensible.git
 
 ###### Internet explorer virtual machines (for the braves):
 
