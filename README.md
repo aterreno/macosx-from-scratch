@@ -31,6 +31,9 @@ brew cask install sublime-text
 brew cask install the-unarchiver
 brew cask install virtualbox
 brew cask install tunnelblick
+brew cask install avibrazil-rdm
+brew cask install screenhero
+brew cask install numi
 brew install dockutil
 brew install git
 brew install ansible
