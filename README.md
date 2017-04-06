@@ -89,9 +89,16 @@ echo "get latest packer & vagrant from hashicorp - no good brew formula yet"
 	git clone https://github.com/hashivim/vim-packer.git && \
 	git clone https://github.com/hashivim/vim-vagrant.git && \
 	git clone https://github.com/moll/vim-node && \
-	git clone https://github.com/vim-ruby/vim-ruby
-
-
+	git clone https://github.com/vim-ruby/vim-ruby && \
+	git clone https://github.com/ekalinin/Dockerfile.vim.git Dockerfile && \
+	git clone --recursive https://github.com/davidhalter/jedi-vim.git && \
+	git clone https://github.com/powerline/powerline.git && \
+	git clone git://github.com/godlygeek/tabular.git && \ 
+	git clone git://github.com/tpope/vim-surround.git && \
+	git clone https://github.com/vim-airline/vim-airline.git && \
+	git clone https://github.com/elzr/vim-json.git && \ 
+	git clone https://github.com/plasticboy/vim-markdown.git && \ 
+	git clone git://github.com/tpope/vim-commentary.git
 
 ###### Internet explorer virtual machines (for the braves):
 
