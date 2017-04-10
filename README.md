@@ -35,6 +35,7 @@ brew cask install avibrazil-rdm
 brew cask install screenhero
 brew cask install numi
 brew cask install intellij-idea
+brew cask install tigervnc-viewer
 brew install dockutil
 brew install git
 brew install ansible
@@ -98,7 +99,8 @@ echo "get latest packer & vagrant from hashicorp - no good brew formula yet"
 	git clone https://github.com/vim-airline/vim-airline.git && \
 	git clone https://github.com/elzr/vim-json.git && \ 
 	git clone https://github.com/plasticboy/vim-markdown.git && \ 
-	git clone git://github.com/tpope/vim-commentary.git
+	git clone git://github.com/tpope/vim-commentary.git && \
+	git clone https://github.com/scrooloose/nerdtree.git
 
 ###### Internet explorer virtual machines (for the braves):
 
