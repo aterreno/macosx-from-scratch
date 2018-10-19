@@ -18,29 +18,18 @@
 ```
 brew cask install caffeine
 brew cask install dropbox
-brew cask install evernote
 brew cask install firefox
-brew cask install google-drive
 brew cask install iterm2
-brew cask install omnigraffle
-brew cask install skype
 brew cask install slack
 brew cask install spectacle
 brew cask install spotify
-brew cask install sublime-text
 brew cask install the-unarchiver
 brew cask install virtualbox
 brew cask install tunnelblick
-brew cask install avibrazil-rdm
-brew cask install screenhero
-brew cask install numi
-brew cask install intellij-idea
-brew cask install tigervnc-viewer
 brew install dockutil
 brew install git
 brew install ansible
 brew install autojump
-brew install figlet
 brew install jq
 brew install wget
 brew install macvim
@@ -49,19 +38,12 @@ brew install gpg2
 brew install tfenv
 brew install ccat
 dockutil --remove all
-curl -s "https://get.sdkman.io" | bash
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-curl -sSL https://get.rvm.io | bash
 	
 ```
 ###### dev bare mininum (new iterm window):	
 ```
-sdk install java
-sdk install gradle
 nvm install node
-rvm install ruby
-tfenv install 0.9.2
-echo "get latest packer & vagrant from hashicorp - no good brew formula yet"
 
 ```
 ###### Git setup:
