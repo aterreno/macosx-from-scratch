@@ -16,29 +16,8 @@
 ###### Brewable bare mininum:	
 
 ```
-brew cask install caffeine
-brew cask install dropbox
-brew cask install firefox
-brew cask install iterm2
-brew cask install slack
-brew cask install spectacle
-brew cask install spotify
-brew cask install the-unarchiver
-brew cask install virtualbox
-brew cask install tunnelblick
-brew install dockutil
-brew install git
-brew install ansible
-brew install autojump
-brew install jq
-brew install wget
-brew install macvim
-brew install nvm
-brew install gpg2
-brew install tfenv
-brew install ccat
+brew bundle
 dockutil --remove all
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 	
 ```
 ###### dev bare mininum (new iterm window):	
