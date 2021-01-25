@@ -20,6 +20,12 @@ brew bundle
 dockutil --remove all
 	
 ```
+####### powerlevel10k is an excellent theme/extension to zsh
+``` 
+brew install romkatv/powerlevel10k/powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+```
+
 ###### dev bare mininum (new iterm window):	
 ```
 nvm install node
