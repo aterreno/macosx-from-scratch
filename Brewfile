@@ -66,3 +66,12 @@ cask "zwift"
 cask "lastpass"
 cask "signal"
 cask "zoom"
+cask "microsoft-auto-update"
+cask "rectangle"
+cask "microsoft-teams"
+cask "iina"
+cask "background-music"
+cask "macdown"
+cask "adoptopenjdk11"
+
+
