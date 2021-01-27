@@ -73,5 +73,6 @@ cask "iina"
 cask "background-music"
 cask "macdown"
 cask "microsoft-office"
+cask "private-internet-access"
 
 
