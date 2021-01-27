@@ -72,6 +72,6 @@ cask "microsoft-teams"
 cask "iina"
 cask "background-music"
 cask "macdown"
-cask "adoptopenjdk11"
+cask "microsoft-office"
 
 
