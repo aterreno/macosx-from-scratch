@@ -37,7 +37,7 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 
 ## dev bare mininum (new iterm window)
 
-append to ~/.zshrc
+append to ~/.zshrc nvm and install latest node version
 
 ```bash
 export NVM_DIR="$HOME/.nvm"
@@ -46,6 +46,10 @@ export NVM_DIR="$HOME/.nvm"
 source ~/.zshrc
 nvm install node
 ```
+append to ~/.zshrc autojump (can be called with a j) 
+  ```bash
+  [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+  ```
 
 ## Git setup
 
