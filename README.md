@@ -4,9 +4,13 @@
 
 `sudo xcodebuild -license`
 
+## Install Rosetta (if on M1 CPU)
+
+`/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
+
 ## Oh my zsh
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ## Install brew
 
@@ -41,14 +45,13 @@ append to ~/.zshrc nvm and install latest node version
 
 ```bash
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh" # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
-source ~/.zshrc
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completionsource ~/.zshrc
 nvm install node
 ```
 append to ~/.zshrc autojump (can be called with a j) 
   ```bash
-  [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+  [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
   ```
 
 ## Git setup
@@ -62,6 +65,15 @@ append to ~/.zshrc autojump (can be called with a j)
     vi ~/.gitconfig
     curl -L https://gist.githubusercontent.com/aterreno/5134044/raw/d31e8ca14eb895e77a85652da3869dc29af38f8a/.gitignore > ~/.gitignore
     vi ~/.gitignore
+```
+
+## Add GPG Key 
+
+Follow [this](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key) guide
+
+```bash
+  gpg --list-secret-keys --keyid-format LONG
+  gpg --armor --export <gpg_key_id>  
 ```
 
 ## Vim setup
