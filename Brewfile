@@ -54,7 +54,7 @@ cask "azure-data-studio"
 cask "caffeine"
 cask "cyberduck"
 cask "datagrip"
-cask "docker"
+cask "docker", link: false
 cask "dropbox"
 cask "evernote"
 cask "firefox"
